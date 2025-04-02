@@ -33,8 +33,11 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Não tem como acessar, por que tá private
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Tem como acessar, por que tá em public
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Não tem como usar setVolume fora da classe
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>

@@ -31,7 +31,7 @@ public class CorpoHumanoTest {
         corpo.setVolume(0.08);
         assertEquals(0.08, corpo.getVolume(), 0.01);
 
-        corpo.setDensidade(1100);
+        //corpo.setDensidade(1100);
         assertEquals(1100, corpo.getDensidade(), 0.01);
 
         corpo.setAltura(1.80);

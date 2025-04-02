@@ -1,5 +1,6 @@
 package main.java;
 import java.util.Scanner;
+import main.java.CorpoHumano;
 
 public class App {
         //Comentário
@@ -23,8 +24,15 @@ public class App {
         System.out.printf(v2+" "+v1);
     }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
+        
+        CorpoHumano c1 = new CorpoHumano(100, 150, 1.60, 49.1);
 
+        // c1.massa = "2";
+        // c1.setVolume(12000)
+
+
+        //Exibir IMC
+        System.out.println("IMC: " + c1.calcularIMC());
 
     }
 }
